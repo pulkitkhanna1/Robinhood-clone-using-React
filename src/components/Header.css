@@ -1,0 +1,25 @@
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.header_logo{
+    margin-left: 3%;
+}
+
+.header_search{
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+}
+
+.header_searchContainer{
+    height: 20px;
+    border: 1px ;
+    border-radius: 4px;
+    width: 50%;
+}
