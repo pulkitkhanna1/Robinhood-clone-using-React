@@ -11,17 +11,17 @@ function Header() {
         {/* search */}
         <div className="header_search">
           <div className="header_searchContainer">
-            <input placeholer="Search" type="text" />
+            <input placeholder='Search' type="text" />
             
           </div>
         </div>
         {/* menuitems */}
         <div className="header_menuItems">
-          <a href="javascript:void(0)">Free Stocks</a>
-          <a href="javascript:void(0)">Portfolio</a>
-          <a href="javascript:void(0)">Cash</a>
-          <a href="javascript:void(0)">Messages</a>
-          <a href="javascript:void(0)">Account</a>
+          <a href="#">Free Stocks</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Cash</a>
+          <a href="#">Messages</a>
+          <a href="#" className='accounthref'>Account</a>
         </div>
     </div>
   )

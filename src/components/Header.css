@@ -21,5 +21,34 @@
     height: 20px;
     border: 1px ;
     border-radius: 4px;
-    width: 50%;
+    width: 375px;
+}
+
+.header_searchContainer > input {
+    background-color: transparent;
+    border:none;
+    color: gray;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-items:flex-start;
+}
+
+.header_searchContainer > input :focus{
+    outline: none;
+}
+
+.header_menuItems{
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.header_menuItems > a {text-decoration: none;
+    color: whitesmoke;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.header_menuItems > a:hover {
+    color: greenyellow;
 }
